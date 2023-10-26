@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1E1E1E;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+.main-background-picture {
+  background-color: #1E1E1E;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
+    url(../IMAGES/background-image-mob.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 375px;
+  color: #FFF;
+  padding: 40px 20px;
+}
+
+.navigation-wrapper {
+  display: flex;
+
+}
+
+.logo {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+}
+
+.hero-wrapper {
+  padding: 109px 0 357px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.28px;
+  text-transform: capitalize;
+  margin-bottom: 29px;
+}
+
+.hero-wrapper p {
+  color: #ffffffce;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 29px;
+}
+
+.hero-search {
+  display: flex;
+  width: 335px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.hero-search-input {
+  border-radius: 42px;
+  border: 0.862px solid rgba(255, 255, 255, 0.60);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 8px 8px 20px;
+  width: 335px;
+  backdrop-filter: blur(4px);
+}
+
+.hero-search-input::placeholder {
+  color: #FFF;
+}
+
+.hero-search input  {
+  position: absolute;
+
+}
